@@ -17,7 +17,6 @@ const Billboard = ({ data }: BillboardProps) => {
           </div>
         </div>
       </div>
-      Billboard
     </div>
   );
 };
