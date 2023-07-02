@@ -1,6 +1,6 @@
 export interface Billboard {
   id: string;
-  title: string;
+  label: string;
   imageUrl: string;
 }
 
