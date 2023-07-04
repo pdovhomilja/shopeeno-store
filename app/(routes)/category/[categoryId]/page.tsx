@@ -31,7 +31,7 @@ const CategoryPage = async ({ params, searchParams }: CategoryPageProps) => {
   const colors = await getColors();
   const category = await getCategory(params.categoryId);
 
-  console.log(products, "products");
+  //console.log(products, "products");
 
   return (
     <div className="bg-white">
